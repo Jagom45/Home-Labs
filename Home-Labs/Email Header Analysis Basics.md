@@ -20,7 +20,7 @@ Email Header Analysis Basics
 # Checking if the Email was sent from the correct SMTP Server
 - By checking the received field to see the path followed, we get an IP address of 101.99.94.116 for the IP server
 - By checking the sender field, we see that it came from the domain Letsdefend.io
-- We can use mxtoolbox.com to show you the MX servers used by the domain
+- We can use https://mxtoolbox.com/SuperTool.aspx to show you the MX servers used by the domain
 - After checking with mxtoolbox.com, we can see that there is no IP listed as 101.99.94.116
 - This confirms that that the email did not come from the original address but was spoofed
 
