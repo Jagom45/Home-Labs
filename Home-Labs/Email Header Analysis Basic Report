@@ -1,0 +1,47 @@
+# Email Header Analysis Basic Report
+-This file contains the ticket/incident report for Email Header Analysis Basic Lab
+
+Incident/Ticket ID: 1
+
+Alert/Detection: Sally receives a suspicious email that says to reset her email and reports it to IT to examine the email headers
+
+Date/Time: 9/30/26 10:10PM
+
+Severity: Low
+
+Affected Hosts: None as Sally did not click on any links yet
+
+Affected Users: None as Sally did not click on any links yet
+
+Source IP/: None but the sender email is badcompany@email.com
+
+Detection Alert: Sally reported the suspicious email to IT
+
+Initial Alert: Sally reported the suspicious email to IT
+
+Investigation: Sally received a suspicious email, it stats to click on this link to change the email
+
+Raw Event Evidence: No security event created, but the actual email itself is being used as evidence
+
+IoC Analyis: None yet as not link has been clicked on
+
+MITRE ATTACK Mapping: Mapped to T1566 as Phishing Email with technique as T1566.002 for spearphisihg link as the email contained a link
+
+Scope/Impact: Low because no link was clicked on
+
+Containment: Contain the email and not clicking on the email
+
+Remeditaiton: Make a rule to block future phishing email with similar URL in the body of an email and move the email to junk email
+
+Escalation: No because the email link was never clicked on
+
+Final Disposition: Incident contained and closed, the suspicious email with the suspecious link was detected and investegated with TotalVirus and verifiting that the link was a phishing link to steal credentials. Email analysis can be performed to check if the email is suspecious or not. Email rule was created to prevent future similar emails like that to go to junk folder.
+
+Analyst Notes: Virustotal detected the link as a phishing link to steal information and an email rule can be created to mitigate future phishing attacks
+
+Lesson Learned/Detection Improvements: Employee training is important as Sally reported the suspicious email to the IT departement and email rule can be created to prevent future similar attacks.
+
+
+
+
+
