@@ -4,7 +4,7 @@
 
 - Date/Time - 10/2/2026 10:14:01 PM 
 - Hostname - WIN-F73S2MC5TMC$
-- Event ID - 4719
+- Event ID - 4672
 - Description - Special privileges assigned to new logon
 
 - Subject:
