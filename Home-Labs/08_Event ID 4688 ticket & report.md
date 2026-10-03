@@ -19,8 +19,8 @@
 - Mandatory Label - Mandatory Label\High Mandatory Level (High Mandatory means the process is operating at the High integrity level)
 -	Creator Process ID:	0x1ec8 (The process that started Notepad, so the PID of CMD is 0x1ec8)
 - Creator Process Name - C:\Windows\System32\cmd.exe (What created Notepad) (cmd.exe = parent process & notepade.exe = child process)
-- Note: 0x1ec8 and 0xb38 change as they are just instances that where launched and are in hexadecimal. If the same programs get launched again, a new PID will be issued and PID numbers are recycled eventually.
-
+- Note: 0x1ec8 and 0xb38 change as they are just instances that where launched and are in hexadecimal. If the same programs get launched again a new PID will be assigned to it by windows this number can be found in task manager as well. In event viewer the hexadecimal number gets used which are the numerical value of the hexadecimal numbers.
+  
 - Investigation - A windows security log was investigated with an event ID of 4688. The event ID was found in event viewer with a description of A new process has been created. The new process was created on the Administrator account. There is evidence that CMD.exe was used to launch notepad.exe. CMD is the parent process and notepad is the child process. The PID of CMD is 0x1ec8 and the notepad PID is 0xb38.
 
 - Analyst Determination: True Negative/benign activity
