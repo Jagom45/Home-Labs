@@ -13,7 +13,7 @@
 - Workstation - WIN-F73S2MC5TMC
 - Authentication Package - Negotiate
 
-- Investigation - A windows security log was investigated with an event ID of 4624. The event ID was found in event viewer with a description of An account was successfully logged on with a logon Type of 3 which means network. The account targeted was a Administrator account on the workstation WIN-F73S2MC5TMC.
+- Investigation - A windows security log was investigated with an event ID of 4624. The event ID was found in event viewer with a description of An account was successfully logged on with a logon Type of 2 which means network. The account targeted was a Administrator account on the workstation WIN-F73S2MC5TMC.
 
 - Analyst Determination: True Negative/ benign activity
 
