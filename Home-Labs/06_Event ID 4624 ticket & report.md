@@ -17,7 +17,7 @@
 
 - Analyst Determination: True Negative/ benign activity
 
-- Conclusion - The legitimate logon was intentional to generate a event ID 4624 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason for a legitimate logon was a correctly typed in username and password. The case was closed and documented and marked as false positive as the authentication success resulted from a correct username and password that was entered. 
+- Conclusion - The legitimate logon was intentional to generate a event ID 4624 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason for a legitimate logon was a correctly typed in username and password. The case was closed and documented and marked as true negative as the authentication success resulted from a correct username and password that was entered. 
 
 - Personal notes
 
