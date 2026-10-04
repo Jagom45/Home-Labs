@@ -36,4 +36,4 @@ This event is generated when a process attempts to log on an account by explicit
 
 - Analyst Determination: True Negative/ benign activity
 
-- Conclusion - The legitimate logon was intentional to generate a event ID 4648 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason for using explicit credentials was to generated an event ID of 4648. The case was closed and documented and marked as True Negative as the attempt to log on by providing explicit credentials was legitimate and resulted from a correct username and password that was entered. 
+- Conclusion - The legitimate logon was intentional to generate a event ID 4648 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason for using explicit credentials was to generated an event ID of 4648. The case was closed and documented and marked as True Negative as the attempt to log on by providing explicit credentials was legitimate.
