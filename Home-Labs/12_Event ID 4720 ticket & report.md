@@ -63,5 +63,5 @@
 
 - Analyst Determination: True Negative/ benign activity
 
-- Conclusion - The legitimate account creation was intentional to generate a event ID 4720 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason of the triggering event ID 4720 was the creation of a new account by the name test2. The case was closed and documented and marked as true negative as the creation of a new account was legitimate. 
+- Conclusion - The legitimate account creation was intentional to generate a event ID 4720 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason of the triggering event ID 4720 was the creation of a new account by the name test2. The case was closed and documented and marked as true negative as the creation of a new account was legitimate.
 
