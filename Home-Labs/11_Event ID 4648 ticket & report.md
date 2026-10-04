@@ -1,5 +1,5 @@
 # Event ID 4648
-- This simulates a successful attempt along with an investigation and a ticket/report
+- This simulates an explicit credential logon attempt along with an investigation and a ticket/report
 
 - Date/Time - 10/3/2026 7:50:04 PM 
 - Hostname - WIN-F73S2MC5TMC
@@ -32,7 +32,7 @@
 
 This event is generated when a process attempts to log on an account by explicitly specifying that account’s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.
 
-- Investigation - A windows security log was investigated with an event ID of 4648. The event ID was found in event viewer with a description of a logon was attempted using explicit credentials. The the credentials used was from the account name of WIN-F73S2MC5TMC$ that belonged to the cs.org.
+- Investigation - A windows security log was investigated with an event ID of 4648. The event ID was found in event viewer with a description of a logon was attempted using explicit credentials. The credentials used belonged to the computer account WIN-F73S2MC5TMC$ that belonged to the cs.org domain.
 
 - Analyst Determination: True Negative/ benign activity
 
