@@ -49,11 +49,11 @@
 - Account Deleted - test2
 - Deleted by - Administrator
 
-- Investigation - A windows security log was investigated with an event ID of 4720 The event ID was found in event viewer with a description of a user account was deleted. The Administrator account deleted a account with the username of test2.
+- Investigation - A windows security log was investigated with an event ID of 4726 The event ID was found in event viewer with a description of a user account was deleted. The Administrator account deleted a account with the username of test2.
 
 - Analyst Determination: True Negative/ benign activity
 
-- Conclusion - The account was deleted intentionally to generate a event ID 4726 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason of the triggering event ID was the deletion of the account test2 was deleted by the account Administrator. The case was closed and documented and marked as true negative as the deletion of the account was legitimate. 
+- Conclusion - The account was deleted intentionally to generate a event ID 4726 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was needed in this lab. Reason of the triggering event ID was the deletion of the account test2 was deleted by the account Administrator. The case was closed and documented and marked as true negative as the deletion of the account was legitimate. 
 
 
 
