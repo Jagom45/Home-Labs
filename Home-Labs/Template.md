@@ -9,7 +9,7 @@
 
 
 
-****USE gpedit.msc to edit policies****
+****USE secpol to edit policies****
 
 
 
@@ -34,3 +34,6 @@
 
 
 
+gpedit → general local policy
+secpol → local security policy
+gpmc → domain Group Policy management
