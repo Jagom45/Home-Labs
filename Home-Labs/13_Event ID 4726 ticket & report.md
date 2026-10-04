@@ -46,8 +46,8 @@
 - Date/Time - 10/3/2026 11:52:52 PM 
 - Event ID - 4726
 - Description - A user account was deleted
-- Account Created - test2
-- Created by - Administrator
+- Account Deleted - test2
+- Deleted by - Administrator
 
 - Investigation - A windows security log was investigated with an event ID of 4720 The event ID was found in event viewer with a description of a user account was deleted. The Administrator account deleted a account with the username of test2.
 
