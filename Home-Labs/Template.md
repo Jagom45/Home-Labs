@@ -9,7 +9,7 @@
 
 
 
-
+****USE gpedit.msc to edit policies****
 
 
 
