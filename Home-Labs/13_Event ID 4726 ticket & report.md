@@ -44,7 +44,7 @@
 
 
 - Date/Time - 10/3/2026 11:52:52 PM 
-- Event ID - 4720
+- Event ID - 4726
 - Description - A user account was deleted
 - Account Created - test2
 - Created by - Administrator
@@ -56,6 +56,5 @@
 - Conclusion - The account was deleted intentionally to generate a event ID 4726 for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason of the triggering event ID was the deletion of the account test2 was deleted by the account Administrator. The case was closed and documented and marked as true negative as the deletion of the account was legitimate. 
 
 
-...._Event ID .... ticket & report.md
 
 
