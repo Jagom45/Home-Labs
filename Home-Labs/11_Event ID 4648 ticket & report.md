@@ -1,6 +1,12 @@
 # Event ID 4648
 - This simulates an explicit credential logon attempt along with an investigation and a ticket/report
 
+# Generating an event ID 4648
+- Open CMD
+- Type in: runas /user:.\Administrator "cmd.exe"
+- Type in the password for Administrator
+- Go to event viewer and find event ID 4648
+
 - Date/Time - 10/3/2026 7:50:04 PM 
 - Hostname - WIN-F73S2MC5TMC
 - Event ID - 4648
