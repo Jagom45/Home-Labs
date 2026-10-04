@@ -32,7 +32,7 @@
 
 - Analyst Determination: True Negative
 
-- Conclusion - The Audit Policy Change was intentional to generate a ID 4672 event for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason for Sepcial privileges assigned to new logon was the very high level privileges being assigned to NT Authority/SYTEM. The case was closed and documented and marked as True Negative as the audit policy change resulted from an intentionally .
+- Conclusion - The special privileges assigned to new logon with an Administrator account was intentional to generate a ID 4672 event for a security monitoring lab, so no evidence of unauthorized access was identified or escalation needed. No containment or remediation was need in this lab. Reason for Special privileges assigned to new logon was the very high level privileges being assigned to NT Authority/SYTEM. The case was closed and documented and marked as True Negative as the audit policy change resulted from an intentionally .
 
 
 
