@@ -1,5 +1,5 @@
 # Event ID 4720
-- This simulates a successful attempt along with an investigation and a ticket/report
+- This simulates a user account was created along with an investigation and a ticket/report
 
 # Creating an Event ID 4720 User account created
 - Open CMD in administrator mode
